@@ -11,7 +11,7 @@ Spring Boot 2.5.4 ou superior
 Maven 3.6.3 ou superior
 Como Executar
 Clone o repositório:
-git clone https://github.com/seu-usuario/projetoFinal.git
+git clone https://github.com/marcoshjf/projetoFinal.git
 cd projetoFinal
 Compile e execute o projeto:
 
