@@ -17,8 +17,28 @@ Compile e execute o projeto:
 
 bash Copiar código mvn clean install mvn spring-boot:run Acesse a API em http://localhost:8080.
 
-Endpoints da API Voluntários GET /voluntarios: Retorna todos os voluntários. GET /voluntarios/{id}: Retorna um voluntário pelo ID. POST /voluntarios: Cria um novo voluntário. DELETE /voluntarios/{id}: Deleta um voluntário pelo ID. Donativos GET /donativos: Retorna todos os donativos. GET /donativos/{id}: Retorna um donativo pelo ID. POST /donativos: Cria um novo donativo. DELETE /donativos/{id}: Deleta um donativo pelo ID. Abrigos GET /abrigos: Retorna todos os abrigos. GET /abrigos/{id}: Retorna um abrigo pelo ID. POST /abrigos: Cria um novo abrigo. DELETE /abrigos/{id}: Deleta um abrigo pelo ID. Ajuda GET /ajuda: Retorna informações sobre os estudantes, nome do projeto e tema do projeto.
+Endpoints da API Voluntários 
+GET /voluntarios: Retorna todos os voluntários. 
+GET /voluntarios/{id}: Retorna um voluntário pelo ID. 
+POST /voluntarios: Cria um novo voluntário. 
+DELETE /voluntarios/{id}: Deleta um voluntário pelo ID. 
+Donativos
+GET /donativos: Retorna todos os donativos. 
+GET /donativos/{id}: Retorna um donativo pelo ID. 
+POST /donativos: Cria um novo donativo. 
+DELETE /donativos/{id}: Deleta um donativo pelo ID. 
+Abrigos 
+GET /abrigos: Retorna todos os abrigos. 
+GET /abrigos/{id}: Retorna um abrigo pelo ID. 
+POST /abrigos: Cria um novo abrigo. 
+DELETE /abrigos/{id}: Deleta um abrigo pelo ID. 
+PUT /abrigos: Altera informação do abrigo.
+Ajuda 
+GET /ajuda: Retorna informações sobre os estudantes, nome do projeto e tema do projeto.
 
-{ "estudantes": ["fulano", "beltrano"], "projeto": "nome do projeto", "tema": "tema do projeto" } Estrutura dos Pacotes controller: Contém os controladores REST. model: Contém as entidades JPA. repository: Contém as interfaces de repositório que estendem JpaRepository. service: Contém as classes de serviço que implementam a lógica de negócios. Contribuições Para contribuir com o projeto, faça um fork do repositório, crie uma branch com suas modificações e envie um pull request.
+{ "estudantes": ["fulano", "beltrano"], "projeto": "nome do projeto", "tema": "tema do projeto" } Estrutura dos Pacotes controller: Contém os controladores REST. 
+model: Contém as entidades JPA. 
+repository: Contém as interfaces de repositório que estendem JpaRepository. 
+service: Contém as classes de serviço que implementam a lógica de negócios. 
+Contribuições Para contribuir com o projeto, faça um fork do repositório, crie uma branch com suas modificações e envie um pull request.
 
-Licença Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo LICENSE para mais detalhes.
