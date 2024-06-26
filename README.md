@@ -2,8 +2,35 @@ Projeto Final: Engajamento Comunitário
 Descrição
 Este projeto é uma API RESTful para processamento de requisições de um cliente HTTP, com foco em engajamento comunitário. As principais funcionalidades incluem um sistema de match para voluntários, gerenciamento de donativos e mapeamento de abrigos.
 
-Estrutura do Projeto
-projetoFinal ├── .idea ├── src │ ├── main │ │ ├── java │ │ │ ├── org │ │ │ │ ├── example │ │ │ │ │ ├── controller │ │ │ │ │ │ ├── AjudaController.java │ │ │ │ │ │ ├── VoluntarioController.java │ │ │ │ │ │ ├── DonativoController.java │ │ │ │ │ │ ├── AbrigoController.java │ │ │ │ │ ├── model │ │ │ │ │ │ ├── Voluntario.java │ │ │ │ │ │ ├── Donativo.java │ │ │ │ │ │ ├── Abrigo.java │ │ │ │ │ ├── repository │ │ │ │ │ │ ├── VoluntarioRepository.java │ │ │ │ │ │ ├── DonativoRepository.java │ │ │ │ │ │ ├── AbrigoRepository.java │ │ │ │ │ ├── service │ │ │ │ │ │ ├── VoluntarioService.java │ │ │ │ │ │ ├── DonativoService.java │ │ │ │ │ │ ├── AbrigoService.java │ │ │ │ ├── ProjetoFinalApplication.java │ ├── test ├── .gitignore ├── pom.xml └── README.md
+projetoFinal
+├── .idea
+├── src
+│ ├── main
+│ │ ├── java
+│ │ │ ├── org
+│ │ │ │ ├── example
+│ │ │ │ │ ├── controller
+│ │ │ │ │ │ ├── AjudaController.java
+│ │ │ │ │ │ ├── VoluntarioController.java
+│ │ │ │ │ │ ├── DonativoController.java
+│ │ │ │ │ │ ├── AbrigoController.java
+│ │ │ │ │ ├── model
+│ │ │ │ │ │ ├── Voluntario.java
+│ │ │ │ │ │ ├── Donativo.java
+│ │ │ │ │ │ ├── Abrigo.java
+│ │ │ │ │ ├── repository
+│ │ │ │ │ │ ├── VoluntarioRepository.java
+│ │ │ │ │ │ ├── DonativoRepository.java
+│ │ │ │ │ │ ├── AbrigoRepository.java
+│ │ │ │ │ ├── service
+│ │ │ │ │ │ ├── VoluntarioService.java
+│ │ │ │ │ │ ├── DonativoService.java
+│ │ │ │ │ │ ├── AbrigoService.java
+│ │ │ │ ├── ProjetoFinalApplication.java
+│ ├── test
+├── .gitignore
+├── pom.xml
+└── README.md
 
 Dependências
 Java 11 ou superior
