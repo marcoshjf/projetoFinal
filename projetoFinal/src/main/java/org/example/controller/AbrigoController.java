@@ -3,6 +3,7 @@ package org.example.controller;
 import org.example.model.Abrigo;
 import org.example.service.AbrigoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -31,5 +32,11 @@ public class AbrigoController {
     @DeleteMapping("/{id}")
     public void deleteById(@PathVariable Long id) {
         service.deleteById(id);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<Abrigo> updateAbrigo(@PathVariable Long id, @RequestBody Abrigo abrigoDetails) {
+        Abrigo updatedAbrigo = service.updateAbrigo(id, abrigoDetails);
+        return ResponseEntity.ok(updatedAbrigo);
     }
 }
